@@ -1,0 +1,13 @@
+/* 通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    background-color: #f3f3f3;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
