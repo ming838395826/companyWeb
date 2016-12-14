@@ -5,6 +5,9 @@
     <title>公司网站</title>
     <link href="../css/header.css" rel="stylesheet" type="text/css">
     <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/content.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
 </head>
 <body>
 <div id="header_wrapper">
@@ -37,8 +40,68 @@
 
     </header>
 </div>
-<div id="content_wrapper">
+<div id="content_wrapper" class="container">
+    <div id="left">
+        <!-- 轮播图 -->
+        <div id="carousel">
+            <div class="wrap">
+                <div id="slide-holder">
+                    <div id="slide-runner">
+                        <a href="index.html"><img id="slide-img-1" src="../image/a1.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-2" src="../image/a2.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-3" src="../image/a3.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-4" src="../image/a4.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-5" src="../image/a5.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-6" src="../image/a6.jpg" class="slide" alt=""/></a>
+                        <a href="index.html"><img id="slide-img-7" src="../image/a4.jpg" class="slide" alt=""/></a>
+                        <div id="slide-controls">
+                            <p id="slide-client" class="text"><strong>联盟推荐: </strong><span></span></p>
+                            <p id="slide-desc" class="text"></p>
+                            <p id="slide-nav"></p>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    if (!window.slider) var slider = {};
+                    slider.data = [{
+                        "id": "slide-img-1",
+                        "client": "第一条的标题在这里",
+                        "desc": "第一条的这里是描述信息"
+                    }, {"id": "slide-img-2", "client": "标题在这里", "desc": "这里是描述信息"}, {
+                        "id": "slide-img-3",
+                        "client": "标题在这里",
+                        "desc": "这里是描述信息"
+                    }, {"id": "slide-img-4", "client": "标题在这里", "desc": "这里是描述信息"}, {
+                        "id": "slide-img-5",
+                        "client": "标题在这里",
+                        "desc": "这里是描述信息"
+                    }, {"id": "slide-img-6", "client": "标题在这里", "desc": "这里是描述信息"}, {
+                        "id": "slide-img-7",
+                        "client": "标题在这里",
+                        "desc": "这里是描述信息"
+                    }];
+                </script>
+            </div>
+        </div>
 
+        <div id="new">
+            <div class="title_bg" id="new_title">
+                <h4><a href="index.html">集团会员新闻</a></h4>
+            </div>
+            <ul>
+                <li><a href="index.html"><img src="../image/new.jpg" alt="" id="text"></a><a href="index.html" class="new_remark">
+                    <div>
+                        <h3>标题</h3>
+                        <p>111111111111111111111111111111111111111111111111111122222222222222222222222111</p>
+                    </div>
+                </a> </li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="right">
+
+    </div>
 </div>
 <div id="footer_wrapper">
 

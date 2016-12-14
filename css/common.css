@@ -11,3 +11,11 @@ body{
     width: 1000px;
     margin: 0 auto;
 }
+
+.title_bg{
+    background: url(../image/title_bg.jpg);
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+

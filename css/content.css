@@ -1,0 +1,139 @@
+#left{
+    display: inline-block;
+    width: 628px;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#right{
+    display: inline-block;
+    width: 347px;
+    vertical-align: top;
+    background: #cccccc;
+    height: 20px;
+    margin-top: 20px;
+}
+
+/*轮播图的样式*/
+section#carousel{
+    box-shadow: 1px 4px 15px #A39F9F;
+}
+div.wrap a{
+    color:#fff;
+}
+div#slide-holder {
+    width : 628px;
+    height : 278px;
+}
+div#slide-runner {
+    width : 628px;
+    height : 278px;
+    overflow : hidden;
+    position : absolute;
+}
+div#slide-holder img {
+    margin : 0;
+    display : none;
+    position : absolute;
+}
+div#slide-controls {
+    left : 0;
+    bottom : 0px;
+    width : 628px;
+    height : 46px;
+    display : none;
+    position : absolute;
+}
+div#slide-controls p.text {
+    float : left;
+    color : #fff;
+    display : inline;
+    font-size : 10px;
+    line-height : 16px;
+    margin : 15px 0 0 20px;
+    text-transform : uppercase;
+}
+p#slide-nav {
+    float : right;
+    height : 24px;
+    display : inline;
+    margin : 11px 15px 0 0;
+}
+p#slide-nav a {
+    float : left;
+    width : 24px;
+    height : 24px;
+    display : inline;
+    font-size : 11px;
+    margin : 0 5px 0 0;
+    line-height : 24px;
+    font-weight : bold;
+    text-align : center;
+    text-decoration : none;
+    background-position : 0 0;
+    background-repeat : no-repeat;
+
+}
+p#slide-nav a.on {
+    background-position : 0 -24px;
+}
+p#slide-nav a {
+    background-image : url(../image/silde-nav.png);
+}
+
+/*新闻*/
+#new_title{
+    margin-top: 20px;
+}
+#new div a{
+    text-decoration: none;
+    color: #000;
+}
+#new ul{
+    margin-top: 20px;
+}
+#new li{
+    display: inline-block;
+
+}
+#new li img{
+    width: 315px;
+    height: 165px;
+}
+#new li a.new_remark{
+    width: 308px;
+    position: relative;
+    background: rgb(53, 152, 220);
+    color: #fff;
+    margin-left: 5px;
+    padding: 11px;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap:break-word
+}
+.new_remark{
+    display: inline-block;
+    vertical-align: top;
+    width: 308px;
+    color: black;
+}
+.new_remark h3{
+    width: 288px;
+    height: 30px;
+    overflow: hidden;
+    vertical-align: top;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 5px;
+}
+.new_remark p{
+    height: 105px;
+    overflow: hidden;
+    word-break:;
+}
+
+
+
