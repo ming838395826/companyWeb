@@ -132,7 +132,6 @@ p#slide-nav a {
 .new_remark p{
     height: 105px;
     overflow: hidden;
-    word-break:;
 }
 
 
