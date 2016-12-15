@@ -133,6 +133,44 @@ p#slide-nav a {
     height: 105px;
     overflow: hidden;
 }
+#triangle{
+    height: 20px;
+    width: 20px;
+    background: #3598DC;;
+    position: absolute;
+    top: 25px;
+    left: -11px;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 
+/**组图**/
+#picture_title{
+    margin-top: 20px;
+}
+#picture_title a{
+    text-decoration: none;
+    color: black;
+}
+#picture li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 9px;
+}
+#picture li:last-child{
+    margin-right: 0px;
+}
+#picture li img{
+    width: 150px;
+    height: 150px;
+}
+#picture_text{
+    width: 200px;
+}
+#picture_picture li{
+    display: block;
+}
 
 
